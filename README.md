@@ -26,7 +26,7 @@ Requires macOS 13 Ventura or later · Apple Silicon (M1 or later)
 
 **System Status** — live CPU, memory, disk, network, and top processes at a glance
 
-![System Status](screenshots/system-status.png)
+![System Status](screenshots/system-status-v2.png)
 
 **Clean** — see exactly what's taking up space before you delete anything
 
