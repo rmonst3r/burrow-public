@@ -14,6 +14,21 @@ Burrow is a polished GUI frontend for [Mole](https://github.com/tw93/mole) — t
 
 ---
 
+## Changelog
+
+### v0.2.0
+- **Memory pressure gauge** — live indicator (Normal / Warning / Critical) shown as a vertical colour bar in the Memory widget, read directly from the macOS kernel
+- **GPU usage** — Apple Silicon GPU utilisation now displayed in the GPU widget, sourced from IOAccelerator
+- **Disk widget** — virtual Xcode Simulator volumes no longer appear as disks
+- **Uninstall** — sort apps alphabetically or by size with a single click
+- **Performance** — app no longer freezes on navigation to Uninstall or Purge tabs
+- **Settings** — removed redundant Mole CLI section (Mole is bundled; no install required)
+
+### v0.1.0
+- Initial release
+
+---
+
 ## Download
 
 **[→ Download the latest release](https://github.com/rmonst3r/burrow-public/releases/latest)**
