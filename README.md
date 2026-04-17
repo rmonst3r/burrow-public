@@ -16,6 +16,14 @@ Burrow is a polished GUI frontend for [Mole](https://github.com/tw93/mole) — t
 
 ## Changelog
 
+### v0.2.1
+- **Disk Analyzer — Insights panel** — new landing view surfaces hidden data (iOS Backups, Xcode DerivedData/Archives, iOS Simulators, Docker, Gradle, JetBrains, CocoaPods) and cleanable data (Trash, Downloads, User Caches/Logs, Xcode Device Support, npm/Homebrew/pip caches), with inline Clean buttons that move items to Trash (recoverable)
+- **Clean — 17 new cache targets** — Zed, Warp, Ghostty, Cursor, Brave Service Worker, seven Chrome GPU caches, Stremio, PCSX2, RPCS3, stale iOS `.ipsw` firmware, Stocks, Office logs, wallpaper thumbnails
+- **Maintain — Check view** — scans 11 dev tools with version detection and orphan LaunchAgent detection
+- **Maintain — 5 new Optimize tasks** — Quarantine History, Network `.DS_Store` Prevention, Broken LaunchAgents, SMART Disk Check, Periodic Maintenance
+- **Fix** — Disk Analyzer back button now returns to the Insights panel from navigated directories
+- **Internal** — bundled Mole sidecars updated to v1.34.0
+
 ### v0.2.0
 - **Memory pressure gauge** — live indicator (Normal / Warning / Critical) shown as a vertical colour bar in the Memory widget, read directly from the macOS kernel
 - **GPU usage** — Apple Silicon GPU utilisation now displayed in the GPU widget, sourced from IOAccelerator
