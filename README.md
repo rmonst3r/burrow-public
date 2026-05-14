@@ -16,6 +16,12 @@ Burrow is a polished GUI frontend for [Mole](https://github.com/tw93/mole) — t
 
 ## Changelog
 
+### v0.2.2
+- **Status — Web Widgets** — embed any website as a live widget in the Status grid; add up to 12 independent instances, each with its own URL, back/forward/reload controls, and an open-in-browser button
+- **Google Sign-in** — dedicated sign-in popup shares cookies with web widgets, so YouTube, Gmail, and other Google services stay authenticated
+- **Window memory** — window position and monitor remembered across launches
+- **Sidebar memory** — collapse state persists across sessions
+
 ### v0.2.1
 - **Disk Analyzer — Insights panel** — new landing view surfaces hidden data (iOS Backups, Xcode DerivedData/Archives, iOS Simulators, Docker, Gradle, JetBrains, CocoaPods) and cleanable data (Trash, Downloads, User Caches/Logs, Xcode Device Support, npm/Homebrew/pip caches), with inline Clean buttons that move items to Trash (recoverable)
 - **Clean — 17 new cache targets** — Zed, Warp, Ghostty, Cursor, Brave Service Worker, seven Chrome GPU caches, Stremio, PCSX2, RPCS3, stale iOS `.ipsw` firmware, Stocks, Office logs, wallpaper thumbnails
